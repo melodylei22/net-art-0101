@@ -151,7 +151,7 @@ p{
     to{background-color: darkred;width:160px;color:black; border-radius:120px}
   }
 
-  #touch{
+  .touch button{
     margin-top:90px;
     background-color:midnightblue;
     border: none;
@@ -162,9 +162,10 @@ p{
     font-size: 42px;
     border-radius:20px;
     width:100%;
+    transition: transform 1.5s;
   }
 
-  #touch:hover{
+  .touch:hover button{
     /*animation-fill-mode: forwards;
     animation-name:touch-anime;
     animation-duration:0.8s;
@@ -172,7 +173,6 @@ p{
     animation-timing-function: linear;
     animation-direction:normal;*/
     transform: translate(-100px,50px);
-    transition: transform 2s;
   }
 
   @keyframes touch-anime{
