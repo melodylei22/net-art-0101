@@ -172,12 +172,12 @@ p{
     animation-timing-function: linear;
     animation-direction:normal;*/
     transform: translate(-100px,50px);
-    transition: transform 0.01s;
+    transition: transform 2s;
   }
 
   @keyframes touch-anime{
-    from{transform: 0%,0%}
-    to{transform: -80%, 60%}
+    from{}
+    to{position:100px,450px}
   }
 
   #frenetic{
