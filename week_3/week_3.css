@@ -165,8 +165,19 @@ p{
   }
 
   #touch:hover{
-    transform: translate(-80%,60%);
+    /*animation-fill-mode: forwards;
+    animation-name:touch-anime;
+    animation-duration:0.8s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-direction:normal;*/
+    transform: translate(-100px,50px);
     transition: transform 0.01s;
+  }
+
+  @keyframes touch-anime{
+    from{transform: 0%,0%}
+    to{transform: -80%, 60%}
   }
 
   #frenetic{
