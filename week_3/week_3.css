@@ -1,0 +1,210 @@
+
+@font-face {
+	font-family: 'gothic';
+	src: url('./assets/fonts/gothic.woff');
+}
+
+body{
+/* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%); */
+background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,0.8828125) 70%);
+}
+
+
+.back-button{
+    margin-top: 3%;
+    margin-left:5%;
+}
+
+.title{
+    text-align: center;
+    margin-top:2%;
+    margin-bottom:2%
+}
+
+.content{
+    display: block;
+    width:stretch;
+    max-width: 50%;
+    height:stretch;
+    padding-left:5%;
+    padding-right:10%;
+    padding-top: 10%;
+}
+
+p{
+    font-family:'gothic';
+    font-size:18px;
+    line-height:1.5em;
+}
+
+.container {
+    margin-left:7%;
+    margin-right:7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 30%;/*original:32*/
+    height: 280px;
+    border-style: dashed;
+    border-color: linen;
+    border-width: 2px;
+    padding-bottom: 10px; /* 32:18, i.e. 16:9 */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    align-items: center;
+    position:relative;
+  }
+
+  .button-name{
+    text-align: center;
+    font-size:26px;
+    color:linen;
+    position:absolute;
+    bottom:10px;
+  }
+
+  #cheerful{
+    margin-top:90px;
+    background-color:coral;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+  }
+
+  #cheerful:hover{
+    animation-name:cheerful-anime;
+    animation-duration:0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes cheerful-anime{
+    0%{border-radius:20px;font-size:42px;margin-top:90px;}
+    50%{border-radius:80px;font-size:48px; margin-top:87px;}
+    100%{border-radius:20px;font-size:42px; margin-top:90px;}
+  }
+
+  #shy{
+    margin-top:90px;
+    background-color:darkseagreen;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+  }
+
+  #shy:hover{
+    animation-fill-mode: forwards;
+    animation-name:shy-anime;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+  }
+
+  @keyframes shy-anime {
+    from{opacity:1;}
+    to{opacity:0}
+  }
+
+  #salty{
+    margin-top:90px;
+    background-color:crimson;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+    width:140px;
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    position: absolute;
+  }
+
+  #salty:hover{
+    animation-fill-mode: forwards;
+    animation-name:salty-anime;
+    animation-duration:0.8s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-direction:normal;
+  }
+
+  @keyframes salty-anime{
+    from{background-color:crimson;width:140px;color:white; border-radius:20px}
+    to{background-color: darkred;width:160px;color:black; border-radius:120px}
+  }
+
+  #touch{
+    margin-top:90px;
+    background-color:midnightblue;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+    width:100%;
+  }
+
+  #touch:hover{
+    transform: translate(-80%,60%);
+    transition: transform 0.01s;
+  }
+
+  #frenetic{
+    margin-top:90px;
+    background-color:gold;
+    border: none;
+    color: dodgerblue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+    width:100%;
+  }
+
+  #frenetic:hover{
+    animation-name:frenetic-anime;
+    animation-duration:0.05s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-direction:normal;
+  }
+
+  @keyframes frenetic-anime{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+  }
+
+
+  #care{
+    margin-top:90px;
+    background-color:dimgray;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    border-radius:20px;
+    width:100%;
+  }
