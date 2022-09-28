@@ -122,8 +122,8 @@ body{
         background: linear-gradient(90deg, rgba(255,255,174,0.9108237044817927) 0%, rgba(141,255,208,0.8772102591036415) 100%);}
     .face{
         background-color: rgb(255, 186, 210);
-        width: 180px;
-        height:180px;
+        width: 200px;
+        height:200px;
         border-radius: 10%
     }
     .left-eye{
@@ -155,8 +155,8 @@ body{
         background: linear-gradient(90deg, rgba(174,219,255,0.9108237044817927) 0%, rgba(208,177,255,0.8576024159663865) 100%);}
     .face{
         background-color: rgb(192, 250, 225);
-        width: 220px;
-        height:220px;
+        width: 280px;
+        height:280px;
         border-radius: 50%
     }
     .left-eye{
@@ -174,10 +174,11 @@ body{
     }
     
     .mouth{
-        width:40px;
-        height:60px;
+        width:60px;
+        height:80px;
         border-radius: 50%;
         left:30px;
+        top:120px;
     }
 }
 
