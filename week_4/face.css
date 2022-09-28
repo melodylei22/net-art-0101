@@ -136,8 +136,8 @@ body{
     .right-eye{
         width: 120px;
         height:40px;
-        border-radius: 20%;
-        top:10px
+        border-radius: 50%;
+        top:20px
     }
     .mouth{
         left:130px;
