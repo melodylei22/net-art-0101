@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('./assets/fonts/gothic.woff');
+}
+
+body{
+    background: rgb(237,202,211);
+    background: radial-gradient(circle, rgba(237,202,211,1) 0%, rgba(184,195,208,1) 26%, rgba(205,232,236,1) 65%, rgba(226,220,163,1) 100%);
+}
