@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body,
+html{
+    margin: 0;
+    background: rgb(25,124,120);
+    background: radial-gradient(circle, rgba(92,92,92,1) 0%, rgba(29,39,51,1) 26%, rgba(0,0,0,1) 65%, rgba(1,1,1,1) 100%);
+}
